@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65104AF2271F1B0D00CD92DE /* BlackCloths2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65104AF1271F1B0D00CD92DE /* BlackCloths2.swift */; };
 		651EF1D4271C4A590035DC7A /* Hair1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651EF1D3271C4A590035DC7A /* Hair1.swift */; };
 		651EF1D6271C4CE90035DC7A /* Eyebrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651EF1D5271C4CE90035DC7A /* Eyebrow.swift */; };
 		651EF1D8271C4FC40035DC7A /* Ribbon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651EF1D7271C4FC40035DC7A /* Ribbon.swift */; };
+		65232069271F706600DBA5B7 /* Bowtie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65232068271F706600DBA5B7 /* Bowtie.swift */; };
+		6523206B271F7A9F00DBA5B7 /* RightHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6523206A271F7A9F00DBA5B7 /* RightHand.swift */; };
+		6523206D2720159300DBA5B7 /* Harp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6523206C2720159300DBA5B7 /* Harp1.swift */; };
+		6523206F27201BF800DBA5B7 /* Harp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6523206E27201BF800DBA5B7 /* Harp2.swift */; };
+		65413914272024FB009D0022 /* Harp3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65413913272024FB009D0022 /* Harp3.swift */; };
+		6541391627202933009D0022 /* Harp4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6541391527202933009D0022 /* Harp4.swift */; };
+		6541391827204D37009D0022 /* BackHair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6541391727204D37009D0022 /* BackHair.swift */; };
 		65618F77271C8EE9009AA081 /* Skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65618F76271C8EE9009AA081 /* Skin.swift */; };
 		6570723B271D6B08005F859A /* WhiteCloths_leftup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6570723A271D6B08005F859A /* WhiteCloths_leftup.swift */; };
 		6570723D271D6BC2005F859A /* WhiteCloths_leftdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6570723C271D6BC2005F859A /* WhiteCloths_leftdown.swift */; };
@@ -17,9 +25,21 @@
 		65707241271D6C7C005F859A /* WhiteCloths_rightdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65707240271D6C7C005F859A /* WhiteCloths_rightdown.swift */; };
 		65707243271DA06B005F859A /* WhiteCloths_center2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65707242271DA06B005F859A /* WhiteCloths_center2.swift */; };
 		65707245271DAB57005F859A /* WhiteCloths_center1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65707244271DAB57005F859A /* WhiteCloths_center1.swift */; };
+		65707247271DB729005F859A /* WhiteCloths_center3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65707246271DB729005F859A /* WhiteCloths_center3.swift */; };
+		65707249271DB9D8005F859A /* WhiteCloths_center4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65707248271DB9D8005F859A /* WhiteCloths_center4.swift */; };
+		6573382C271EBB4C00B39001 /* WhiteCloths_center5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6573382B271EBB4C00B39001 /* WhiteCloths_center5.swift */; };
+		6573382E271ED04700B39001 /* WhiteCloths_center6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6573382D271ED04600B39001 /* WhiteCloths_center6.swift */; };
+		65733830271ED47A00B39001 /* ShoesCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6573382F271ED47A00B39001 /* ShoesCloud.swift */; };
+		65733832271F04E000B39001 /* BlackCloths1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65733831271F04DF00B39001 /* BlackCloths1.swift */; };
 		6584A8EF2719B1D100CECF79 /* Ear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6584A8EE2719B1D100CECF79 /* Ear.swift */; };
 		6584A8F1271AD23700CECF79 /* Hair2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6584A8F0271AD23700CECF79 /* Hair2.swift */; };
 		6584A8F3271AD49100CECF79 /* Ahoge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6584A8F2271AD49100CECF79 /* Ahoge.swift */; };
+		65AE015F271F2CC80083EC35 /* ShoesBlack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AE015E271F2CC80083EC35 /* ShoesBlack.swift */; };
+		65AE0161271F31A20083EC35 /* PinkCloths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AE0160271F31A20083EC35 /* PinkCloths.swift */; };
+		65AE0163271F3E810083EC35 /* ShoesBowkont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AE0162271F3E810083EC35 /* ShoesBowkont.swift */; };
+		65AE0165271F42250083EC35 /* CapePink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AE0164271F42250083EC35 /* CapePink.swift */; };
+		65AE0167271F48830083EC35 /* CapeCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AE0166271F48830083EC35 /* CapeCloud.swift */; };
+		65AE0169271F4FFD0083EC35 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AE0168271F4FFD0083EC35 /* Bag.swift */; };
 		65F857A72717477200D18EED /* HW1_GraphingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F857A62717477200D18EED /* HW1_GraphingApp.swift */; };
 		65F857A92717477200D18EED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F857A82717477200D18EED /* ContentView.swift */; };
 		65F857AB2717477600D18EED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F857AA2717477600D18EED /* Assets.xcassets */; };
@@ -36,9 +56,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65104AF1271F1B0D00CD92DE /* BlackCloths2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackCloths2.swift; sourceTree = "<group>"; };
 		651EF1D3271C4A590035DC7A /* Hair1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hair1.swift; sourceTree = "<group>"; };
 		651EF1D5271C4CE90035DC7A /* Eyebrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eyebrow.swift; sourceTree = "<group>"; };
 		651EF1D7271C4FC40035DC7A /* Ribbon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ribbon.swift; sourceTree = "<group>"; };
+		65232068271F706600DBA5B7 /* Bowtie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowtie.swift; sourceTree = "<group>"; };
+		6523206A271F7A9F00DBA5B7 /* RightHand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightHand.swift; sourceTree = "<group>"; };
+		6523206C2720159300DBA5B7 /* Harp1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harp1.swift; sourceTree = "<group>"; };
+		6523206E27201BF800DBA5B7 /* Harp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harp2.swift; sourceTree = "<group>"; };
+		65413913272024FB009D0022 /* Harp3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harp3.swift; sourceTree = "<group>"; };
+		6541391527202933009D0022 /* Harp4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harp4.swift; sourceTree = "<group>"; };
+		6541391727204D37009D0022 /* BackHair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackHair.swift; sourceTree = "<group>"; };
 		65618F76271C8EE9009AA081 /* Skin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skin.swift; sourceTree = "<group>"; };
 		6570723A271D6B08005F859A /* WhiteCloths_leftup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteCloths_leftup.swift; sourceTree = "<group>"; };
 		6570723C271D6BC2005F859A /* WhiteCloths_leftdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteCloths_leftdown.swift; sourceTree = "<group>"; };
@@ -46,9 +74,21 @@
 		65707240271D6C7C005F859A /* WhiteCloths_rightdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteCloths_rightdown.swift; sourceTree = "<group>"; };
 		65707242271DA06B005F859A /* WhiteCloths_center2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteCloths_center2.swift; sourceTree = "<group>"; };
 		65707244271DAB57005F859A /* WhiteCloths_center1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteCloths_center1.swift; sourceTree = "<group>"; };
+		65707246271DB729005F859A /* WhiteCloths_center3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteCloths_center3.swift; sourceTree = "<group>"; };
+		65707248271DB9D8005F859A /* WhiteCloths_center4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteCloths_center4.swift; sourceTree = "<group>"; };
+		6573382B271EBB4C00B39001 /* WhiteCloths_center5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteCloths_center5.swift; sourceTree = "<group>"; };
+		6573382D271ED04600B39001 /* WhiteCloths_center6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteCloths_center6.swift; sourceTree = "<group>"; };
+		6573382F271ED47A00B39001 /* ShoesCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoesCloud.swift; sourceTree = "<group>"; };
+		65733831271F04DF00B39001 /* BlackCloths1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackCloths1.swift; sourceTree = "<group>"; };
 		6584A8EE2719B1D100CECF79 /* Ear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ear.swift; sourceTree = "<group>"; };
 		6584A8F0271AD23700CECF79 /* Hair2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hair2.swift; sourceTree = "<group>"; };
 		6584A8F2271AD49100CECF79 /* Ahoge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ahoge.swift; sourceTree = "<group>"; };
+		65AE015E271F2CC80083EC35 /* ShoesBlack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoesBlack.swift; sourceTree = "<group>"; };
+		65AE0160271F31A20083EC35 /* PinkCloths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkCloths.swift; sourceTree = "<group>"; };
+		65AE0162271F3E810083EC35 /* ShoesBowkont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoesBowkont.swift; sourceTree = "<group>"; };
+		65AE0164271F42250083EC35 /* CapePink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapePink.swift; sourceTree = "<group>"; };
+		65AE0166271F48830083EC35 /* CapeCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapeCloud.swift; sourceTree = "<group>"; };
+		65AE0168271F4FFD0083EC35 /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
 		65F857A32717477200D18EED /* HW1-Graphing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW1-Graphing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F857A62717477200D18EED /* HW1_GraphingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW1_GraphingApp.swift; sourceTree = "<group>"; };
 		65F857A82717477200D18EED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +137,26 @@
 			children = (
 				65F857A62717477200D18EED /* HW1_GraphingApp.swift */,
 				65F857A82717477200D18EED /* ContentView.swift */,
+				6541391727204D37009D0022 /* BackHair.swift */,
+				6541391527202933009D0022 /* Harp4.swift */,
+				65413913272024FB009D0022 /* Harp3.swift */,
+				6523206E27201BF800DBA5B7 /* Harp2.swift */,
+				6523206C2720159300DBA5B7 /* Harp1.swift */,
+				6523206A271F7A9F00DBA5B7 /* RightHand.swift */,
+				65232068271F706600DBA5B7 /* Bowtie.swift */,
+				65AE0168271F4FFD0083EC35 /* Bag.swift */,
+				65AE0166271F48830083EC35 /* CapeCloud.swift */,
+				65AE0164271F42250083EC35 /* CapePink.swift */,
+				65AE0162271F3E810083EC35 /* ShoesBowkont.swift */,
+				65AE0160271F31A20083EC35 /* PinkCloths.swift */,
+				65AE015E271F2CC80083EC35 /* ShoesBlack.swift */,
+				65733831271F04DF00B39001 /* BlackCloths1.swift */,
+				65104AF1271F1B0D00CD92DE /* BlackCloths2.swift */,
+				6573382F271ED47A00B39001 /* ShoesCloud.swift */,
+				6573382D271ED04600B39001 /* WhiteCloths_center6.swift */,
+				6573382B271EBB4C00B39001 /* WhiteCloths_center5.swift */,
+				65707248271DB9D8005F859A /* WhiteCloths_center4.swift */,
+				65707246271DB729005F859A /* WhiteCloths_center3.swift */,
 				65707244271DAB57005F859A /* WhiteCloths_center1.swift */,
 				65707242271DA06B005F859A /* WhiteCloths_center2.swift */,
 				65707240271D6C7C005F859A /* WhiteCloths_rightdown.swift */,
@@ -205,28 +265,48 @@
 			files = (
 				6584A8EF2719B1D100CECF79 /* Ear.swift in Sources */,
 				651EF1D8271C4FC40035DC7A /* Ribbon.swift in Sources */,
+				6541391827204D37009D0022 /* BackHair.swift in Sources */,
+				6523206D2720159300DBA5B7 /* Harp1.swift in Sources */,
 				65F857BF2718576A00D18EED /* Face.swift in Sources */,
 				65707245271DAB57005F859A /* WhiteCloths_center1.swift in Sources */,
+				65733830271ED47A00B39001 /* ShoesCloud.swift in Sources */,
 				65618F77271C8EE9009AA081 /* Skin.swift in Sources */,
 				6584A8F1271AD23700CECF79 /* Hair2.swift in Sources */,
 				65F857B727182FA600D18EED /* BigHairpin.swift in Sources */,
+				65733832271F04E000B39001 /* BlackCloths1.swift in Sources */,
 				6584A8F3271AD49100CECF79 /* Ahoge.swift in Sources */,
+				6523206B271F7A9F00DBA5B7 /* RightHand.swift in Sources */,
+				65AE015F271F2CC80083EC35 /* ShoesBlack.swift in Sources */,
+				65AE0169271F4FFD0083EC35 /* Bag.swift in Sources */,
 				6570723D271D6BC2005F859A /* WhiteCloths_leftdown.swift in Sources */,
 				651EF1D6271C4CE90035DC7A /* Eyebrow.swift in Sources */,
+				65AE0163271F3E810083EC35 /* ShoesBowkont.swift in Sources */,
+				65AE0167271F48830083EC35 /* CapeCloud.swift in Sources */,
 				65F857BD27183D0400D18EED /* Shofar_Back.swift in Sources */,
 				65707243271DA06B005F859A /* WhiteCloths_center2.swift in Sources */,
+				65413914272024FB009D0022 /* Harp3.swift in Sources */,
 				65707241271D6C7C005F859A /* WhiteCloths_rightdown.swift in Sources */,
 				651EF1D4271C4A590035DC7A /* Hair1.swift in Sources */,
 				65F857A92717477200D18EED /* ContentView.swift in Sources */,
 				65F857B9271834A000D18EED /* ThinHairpin_Stick.swift in Sources */,
 				65F857C12718794000D18EED /* EyeWhite.swift in Sources */,
+				65232069271F706600DBA5B7 /* Bowtie.swift in Sources */,
 				65F857A72717477200D18EED /* HW1_GraphingApp.swift in Sources */,
 				65F857B52718248300D18EED /* Shofar_Front.swift in Sources */,
+				65AE0165271F42250083EC35 /* CapePink.swift in Sources */,
 				65F857C727187A6300D18EED /* Eyelash.swift in Sources */,
+				65AE0161271F31A20083EC35 /* PinkCloths.swift in Sources */,
+				6541391627202933009D0022 /* Harp4.swift in Sources */,
 				6570723F271D6C3C005F859A /* WhiteCloths_rightup.swift in Sources */,
 				65F857C527187A1500D18EED /* Iris2.swift in Sources */,
+				65707249271DB9D8005F859A /* WhiteCloths_center4.swift in Sources */,
+				6523206F27201BF800DBA5B7 /* Harp2.swift in Sources */,
 				6570723B271D6B08005F859A /* WhiteCloths_leftup.swift in Sources */,
+				6573382E271ED04700B39001 /* WhiteCloths_center6.swift in Sources */,
 				65F857C3271879AB00D18EED /* Iris1.swift in Sources */,
+				6573382C271EBB4C00B39001 /* WhiteCloths_center5.swift in Sources */,
+				65104AF2271F1B0D00CD92DE /* BlackCloths2.swift in Sources */,
+				65707247271DB729005F859A /* WhiteCloths_center3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

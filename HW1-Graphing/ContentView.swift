@@ -10,47 +10,32 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            Image("watame")
-                .resizable()
-                .scaledToFill()
-                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
-        
-            ZStack {
-                Group {
-                    // Body
-//                    Skin()
-//                        .fill(Color(red: 0.98, green: 0.94, blue: 0.89))
-//                    Skin()
-//                        .stroke(Color.secondary, lineWidth: 0.3)
-                    
-//                    WhiteCloths_leftup()
-//                        .stroke(Color.red, lineWidth: 0.3)
-                    WhiteCloths_leftdown()
-                        .stroke(Color.red, lineWidth: 0.3)
-//                    WhiteCloths_rightup()
-//                        .stroke(Color.red, lineWidth: 0.3)
-                    WhiteCloths_rightdown()
-                        .stroke(Color.red, lineWidth: 0.3)
-//                    WhiteCloths_center2()
-//                        .stroke(Color.red, lineWidth: 0.3)
-                    WhiteCloths_center1()
-                        .stroke(Color.red, lineWidth: 0.3)
-                    
-                    // white cloths
-                    Path { path in
-                        // center-up
-                    }
-                    .stroke(Color.primary, lineWidth: 0.3)
-                }
-                
-                // Head
-                Group {
-                    FaceView()
-                    EyesView()
-                    FrontHairView()
-                    ShofarView()
-                    HairpinView()
-                }
+            BackHair()
+                .fill(Color(red: 0.94, green: 0.92, blue: 0.75))
+            BackHair()
+                .stroke(Color.secondary, lineWidth: 0.2)
+            
+            // Body
+            Group {
+                CapeView()
+                SkinView()
+                BlackClothsView1()
+                WhiteClothsView()
+                BlackClothsView2()
+                BagView()
+                ShoesView()
+                PinkClothsView()
+                BowtieView()
+                HarpView()
+            }
+
+            // Head
+            Group {
+                FaceView()
+                EyesView()
+                FrontHairView()
+                ShofarView()
+                HairpinView()
             }
         }
     }
@@ -69,7 +54,7 @@ struct FaceView: View {
             Face()
                 .fill(Color(red: 1, green: 0.96, blue: 0.91))
             Face()
-                .stroke(Color.secondary, lineWidth: 0.2)
+                .stroke(Color.secondary, lineWidth: 0.5)
             // nose
             Path(ellipseIn: CGRect(x: 174.5, y: 107, width: 0.6, height: 0.6))
                 .fill(Color.secondary)
@@ -247,5 +232,224 @@ struct HairpinView: View {
                 .fill(.red)
                 .offset(x: 1, y: 5.3)
         }
+    }
+}
+
+struct CapeView: View {
+    var body: some View {
+        CapePink()
+            .fill(Color(red: 0.5, green: 0.68, blue: 0.71))
+        CapePink()
+            .stroke(Color.secondary, lineWidth: 0.5)
+        CapeCloud()
+            .fill(Color(red: 0.98, green: 0.97, blue: 0.98))
+        CapeCloud()
+            .stroke(Color.secondary, lineWidth: 0.5)
+    }
+}
+
+struct SkinView: View {
+    var body: some View {
+        ZStack {
+            Skin()
+                .fill(Color(red: 0.98, green: 0.94, blue: 0.89))
+            Skin()
+                .stroke(Color.secondary, lineWidth: 0.3)
+        }
+    }
+}
+
+struct BlackClothsView1: View {
+    var body: some View {
+        ZStack {
+            BlackCloths1()
+                .fill(Color(red: 0.38, green: 0.35, blue: 0.33))
+            BlackCloths1()
+                .stroke(Color.secondary, lineWidth: 0.5)
+        }
+    }
+}
+
+struct BlackClothsView2: View {
+    var body: some View {
+        ZStack {
+            BlackCloths2()
+                .fill(Color(red: 0.38, green: 0.35, blue: 0.33))
+            BlackCloths2()
+                .stroke(Color.secondary, lineWidth: 0.5)
+        }
+    }
+}
+
+struct WhiteClothsView: View {
+    var body: some View {
+        ZStack {
+            Group {
+                WhiteCloths_leftup()
+                    .fill(Color(red: 0.98, green: 0.97, blue: 0.97))
+                WhiteCloths_leftup()
+                    .stroke(Color.secondary, lineWidth: 0.5)
+                WhiteCloths_leftdown()
+                    .fill(Color(red: 0.95, green: 0.94, blue: 0.94))
+                WhiteCloths_leftdown()
+                    .stroke(Color.secondary, lineWidth: 0.5)
+                WhiteCloths_rightup()
+                    .fill(Color(red: 0.98, green: 0.97, blue: 0.97))
+                WhiteCloths_rightup()
+                    .stroke(Color.secondary, lineWidth: 0.5)
+                WhiteCloths_rightdown()
+                    .fill(Color(red: 1, green: 0.99, blue: 0.99))
+                WhiteCloths_rightdown()
+                    .stroke(Color.secondary, lineWidth: 0.5)
+            }
+            Group {
+                WhiteCloths_center2()
+                    .fill(Color(red: 0.92, green: 0.90, blue: 0.90))
+                WhiteCloths_center2()
+                    .stroke(Color.secondary, lineWidth: 0.5)
+                WhiteCloths_center1()
+                    .fill(Color(red: 0.98, green: 0.97, blue: 0.97))
+                WhiteCloths_center1()
+                    .stroke(Color.secondary, lineWidth: 0.5)
+                WhiteCloths_center4()
+                    .fill(Color(red: 0.95, green: 0.94, blue: 0.94))
+                WhiteCloths_center4()
+                    .stroke(Color.secondary, lineWidth: 0.5)
+                WhiteCloths_center3()
+                    .fill(Color(red: 0.98, green: 0.97, blue: 0.97))
+                WhiteCloths_center3()
+                    .stroke(Color.secondary, lineWidth: 0.5)
+            }
+            Group {
+                WhiteCloths_center5()
+                    .fill(Color(red: 0.98, green: 0.97, blue: 0.97))
+                WhiteCloths_center5()
+                    .stroke(Color.secondary, lineWidth: 0.5)
+                WhiteCloths_center6()
+                    .fill(Color(red: 0.98, green: 0.97, blue: 0.97))
+                WhiteCloths_center6()
+                    .stroke(Color.secondary, lineWidth: 0.5)
+                Path(ellipseIn: CGRect(x: 171.5, y: 236, width: 7, height: 7))
+                    .fill(Color(red: 0.99, green: 0.99, blue: 0.87))
+                Path(ellipseIn: CGRect(x: 171.5, y: 236, width: 7, height: 7))
+                    .stroke(Color.secondary, lineWidth: 0.3)
+                Path(ellipseIn: CGRect(x: 172.8, y: 252.2, width: 4.5, height: 4.5))
+                    .fill(Color(red: 0.99, green: 0.99, blue: 0.87))
+                Path(ellipseIn: CGRect(x: 172.8, y: 252.2, width: 4.5, height: 4.5))
+                    .stroke(Color.secondary, lineWidth: 0.3)
+                Path(ellipseIn: CGRect(x: 172.8, y: 266.8, width: 4.5, height: 4.5))
+                    .fill(Color(red: 0.99, green: 0.99, blue: 0.87))
+                Path(ellipseIn: CGRect(x: 172.8, y: 266.8, width: 4.5, height: 4.5))
+                    .stroke(Color.secondary, lineWidth: 0.3)
+            }
+        }
+    }
+}
+
+struct BowtieView: View {
+    var body: some View {
+        Bowtie()
+            .fill(Color(red: 0.68, green: 0.10, blue: 0.12))
+        Bowtie()
+            .stroke(Color.secondary, lineWidth: 0.3)
+        
+        Path(ellipseIn: CGRect(x: 170, y: 152, width: 10, height: 12.5))
+            .stroke(Color(red: 0.89, green: 0.85, blue: 0.58), lineWidth: 1.3)
+    }
+}
+
+struct BagView: View {
+    var body: some View {
+        Bag()
+            .fill(Color(red: 0.51, green: 0.23, blue: 0.18))
+        Bag()
+            .stroke(Color.secondary, lineWidth: 0.5)
+        Path(ellipseIn: CGRect(x: 87, y: 307, width: 6, height: 6))
+            .fill(Color(red: 0.80, green: 0.80, blue: 0.66))
+        Path(ellipseIn: CGRect(x: 87, y: 307, width: 6, height: 6))
+            .stroke(Color.secondary, lineWidth: 0.3)
+    }
+}
+
+struct ShoesView: View {
+    var body: some View {
+        ZStack {
+            Group {
+                ShoesBlack()
+                    .fill(Color(red: 0.24, green: 0.24, blue: 0.24))
+                ShoesBlack()
+                    .stroke(Color.secondary, lineWidth: 0.5)
+                ShoesBlack()
+                    .fill(Color(red: 0.24, green: 0.24, blue: 0.24))
+                    .rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
+                    .offset(x: -11)
+                ShoesBlack()
+                    .stroke(Color.secondary, lineWidth: 0.5)
+                    .rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
+                    .offset(x: -11)
+            }
+            Group {
+                ShoesBowkont()
+                    .fill(Color(red: 0.98, green: 0.63, blue: 0.67))
+                ShoesBowkont()
+                    .stroke(Color.secondary, lineWidth: 0.5)
+                ShoesBowkont()
+                    .fill(Color(red: 0.98, green: 0.63, blue: 0.67))
+                    .rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
+                    .offset(x: -11)
+                ShoesBowkont()
+                    .stroke(Color.secondary, lineWidth: 0.5)
+                    .rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
+                    .offset(x: -11)
+            }
+            Group {
+                ShoesCloud()
+                    .fill(Color(red: 0.98, green: 0.97, blue: 0.97))
+                ShoesCloud()
+                    .stroke(Color.secondary, lineWidth: 0.5)
+                ShoesCloud()
+                    .fill(Color(red: 0.98, green: 0.97, blue: 0.97))
+                    .rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
+                    .offset(x: -11)
+                ShoesCloud()
+                    .stroke(Color.secondary, lineWidth: 0.5)
+                    .rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
+                    .offset(x: -11)
+            }
+        }
+    }
+}
+
+struct PinkClothsView: View {
+    var body: some View {
+        PinkCloths()
+            .fill(Color(red: 0.98, green: 0.63, blue: 0.67))
+        PinkCloths()
+            .stroke(Color.secondary, lineWidth: 0.3)
+    }
+}
+
+struct HarpView: View {
+    var body: some View {
+        Harp3()
+            .fill(Color(red: 0.95, green: 0.91, blue: 0.88))
+        Harp3()
+            .stroke(Color.secondary, lineWidth: 0.5)
+        Harp1()
+            .fill(Color(red: 0.99, green: 0.96, blue: 0.93))
+        Harp1()
+            .stroke(Color.secondary, lineWidth: 0.5)
+        Harp2()
+            .fill(Color(red: 0.98, green: 0.63, blue: 0.67))
+        Harp2()
+            .stroke(Color.secondary, lineWidth: 0.5)
+        Harp4()
+            .fill(Color(red: 0.99, green: 0.96, blue: 0.93))
+        Harp4()
+            .stroke(Color.secondary, lineWidth: 0.5)
+        RightHand()
+            .fill(Color(red: 0.98, green: 0.94, blue: 0.89))
+        RightHand()
+            .stroke(Color.secondary, lineWidth: 0.5)
     }
 }
