@@ -10,32 +10,54 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            BackHair()
-                .fill(Color(red: 0.94, green: 0.92, blue: 0.75))
-            BackHair()
-                .stroke(Color.secondary, lineWidth: 0.2)
+            Image("grass2")
+                .resizable()
+                .scaledToFill()
+                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
+                .ignoresSafeArea()
             
-            // Body
-            Group {
-                CapeView()
-                SkinView()
-                BlackClothsView1()
-                WhiteClothsView()
-                BlackClothsView2()
-                BagView()
-                ShoesView()
-                PinkClothsView()
-                BowtieView()
-                HarpView()
-            }
+            ZStack(alignment: .top) {
+                Text("わためは")
+                    .font(.title)
+                    .foregroundColor(Color.pink)
+                    .offset(x: -120)
 
-            // Head
-            Group {
-                FaceView()
-                EyesView()
-                FrontHairView()
-                ShofarView()
-                HairpinView()
+                Text("悪く")
+                    .font(.title)
+                    .foregroundColor(Color.pink)
+                    .offset(x: 140)
+                Text("ないよね")
+                    .font(.title)
+                    .foregroundColor(Color.pink)
+                    .offset(x: 120, y: 30)
+
+                BackHair()
+                    .fill(Color(red: 0.94, green: 0.92, blue: 0.75))
+                BackHair()
+                    .stroke(Color.secondary, lineWidth: 0.2)
+                
+                // Body
+                Group {
+                    CapeView()
+                    SkinView()
+                    BlackClothsView1()
+                    WhiteClothsView()
+                    BlackClothsView2()
+                    BagView()
+                    ShoesView()
+                    PinkClothsView()
+                    BowtieView()
+                    HarpView()
+                }
+
+                // Head
+                Group {
+                    FaceView()
+                    EyesView()
+                    FrontHairView()
+                    ShofarView()
+                    HairpinView()
+                }
             }
         }
     }
@@ -374,6 +396,24 @@ struct BagView: View {
 struct ShoesView: View {
     var body: some View {
         ZStack {
+            Path { path in
+                path.addLines([
+                    CGPoint(x: 142, y: 574),
+                    CGPoint(x: 159, y: 574),
+                    CGPoint(x: 159, y: 648),
+                    CGPoint(x: 154, y: 648),
+                    CGPoint(x: 142, y: 574)
+                ])
+                path.addLines([
+                    CGPoint(x: 190, y: 574),
+                    CGPoint(x: 208, y: 574),
+                    CGPoint(x: 196, y: 648),
+                    CGPoint(x: 190, y: 648),
+                    CGPoint(x: 190, y: 574)
+                ])
+            }
+            .fill(.white)
+            
             Group {
                 ShoesBlack()
                     .fill(Color(red: 0.24, green: 0.24, blue: 0.24))
