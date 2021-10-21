@@ -260,7 +260,7 @@ struct HairpinView: View {
 struct CapeView: View {
     var body: some View {
         CapePink()
-            .fill(Color(red: 0.5, green: 0.68, blue: 0.71))
+            .fill(Color(red: 0.98, green: 0.68, blue: 0.71))
         CapePink()
             .stroke(Color.secondary, lineWidth: 0.5)
         CapeCloud()

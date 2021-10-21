@@ -12,7 +12,7 @@ struct BackHair: Shape {
     func path(in rect: CGRect) -> Path {
         Path { path in
             // left
-            path.move(to: CGPoint(x: 124, y: 113))
+            path.move(to: CGPoint(x: 124, y: 100))
             path.addQuadCurve(to: CGPoint(x: 88, y: 177), control: CGPoint(x: 125, y: 140))
             path.addQuadCurve(to: CGPoint(x: 62, y: 226), control: CGPoint(x: 61, y: 210))
             path.addQuadCurve(to: CGPoint(x: 79, y: 256), control: CGPoint(x: 62, y: 240))
@@ -31,11 +31,11 @@ struct BackHair: Shape {
             path.addQuadCurve(to: CGPoint(x: 94, y: 192), control: CGPoint(x: 102, y: 180))
             path.addQuadCurve(to: CGPoint(x: 104, y: 248), control: CGPoint(x: 76, y: 224))
             path.addLine(to: CGPoint(x: 174, y: 248))
-            path.addLine(to: CGPoint(x: 174, y: 113))
-            path.addLine(to: CGPoint(x: 124, y: 113))
+            path.addLine(to: CGPoint(x: 174, y: 100))
+            path.addLine(to: CGPoint(x: 124, y: 100))
             
             // right
-            path.move(to: CGPoint(x: 228, y: 113))
+            path.move(to: CGPoint(x: 228, y: 100))
             path.addQuadCurve(to: CGPoint(x: 258, y: 185), control: CGPoint(x: 228, y: 140))
             path.addQuadCurve(to: CGPoint(x: 289, y: 228), control: CGPoint(x: 270, y: 200))
             path.addQuadCurve(to: CGPoint(x: 288, y: 272), control: CGPoint(x: 303, y: 254))
@@ -61,8 +61,8 @@ struct BackHair: Shape {
             path.addQuadCurve(to: CGPoint(x: 240, y: 184), control: CGPoint(x: 225, y: 161))
             path.addQuadCurve(to: CGPoint(x: 252, y: 212), control: CGPoint(x: 249, y: 200))
             path.addLine(to: CGPoint(x: 174, y: 212))
-            path.addLine(to: CGPoint(x: 174, y: 113))
-            path.addLine(to: CGPoint(x: 228, y: 113))
+            path.addLine(to: CGPoint(x: 174, y: 100))
+            path.addLine(to: CGPoint(x: 228, y: 100))
             
             // others
             path.move(to: CGPoint(x: 78, y: 282))
