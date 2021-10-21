@@ -1,4 +1,4 @@
 # iOS-HW1
 
-![](https://i.imgur.com/VyIAvk7.png)
-![](https://i.imgur.com/toggogX.png)
+![](https://i.imgur.com/QlqxumS.png)
+![](https://i.imgur.com/lBdrXbh.png)
